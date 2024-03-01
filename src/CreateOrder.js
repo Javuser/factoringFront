@@ -62,16 +62,7 @@ function CreateOrder() {
                 </label>
                 <button type="submit">Create Order</button>
             </form>
-            <h1>Orders</h1>
-            <ul>
-                {orders.map(order => (
-                    <li key={order.id}>
-                        <p><strong>Name:</strong> {order.name}</p>
-                        <p><strong>Quantity:</strong> {order.quantity}</p>
-                        <p><strong>Price:</strong> {order.price}</p>
-                    </li>
-                ))}
-            </ul>
+
         </div>
 
 
